@@ -146,5 +146,33 @@ img.rounded {
 
 .image-row img:hover {
     transform: scale(1.1);
-    /* Slight zoom on hover */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Cactus Container - style personnalisé pour une section unique */
+.cactus-container {
+    background-color: #ffe600; /* Jaune vif pour rappeler la couleur du sable et des cactus */
+    color: #2d6a4f; /* Vert cactus foncé pour le texte */
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+.cactus-container h2 {
+    font-size: 2rem;
+    color: #2d6a4f; /* Texte en vert */
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cactus-container p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
 }
