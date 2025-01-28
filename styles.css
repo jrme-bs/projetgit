@@ -1,4 +1,4 @@
-/* Global styles */
+/* Style global */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -50,6 +50,76 @@ main section {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
+}
+
+/* Container principal */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section générale */
+.section-general {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre principal */
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Compétences */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+/* Projets */
+.project-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Liens */
+.link-style {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.link-style:hover {
+    text-decoration: underline;
+}
+
+/* Contact */
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
 }
 
 /* Footer styles */
