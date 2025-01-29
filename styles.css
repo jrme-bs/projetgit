@@ -121,6 +121,62 @@ img.rounded {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Images next to each other */
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Space between images */
+    margin: 20px 0;
+    /* Space around the image row */
+}
+
+.image-row img {
+    width: 150px;
+    /* Adjust the size of the images */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 8px;
+    /* Add rounded corners */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    /* Add shadow for style */
+    transition: transform 0.3s ease;
+    /* Add a hover effect */
+}
+
+.image-row img:hover {
+    transform: scale(1.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Utility Classes */
+.center-text {
+    text-align: center;
+}
+
+img.rounded {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 10px auto;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 /* Sticky header */
 .sticky-header {
     position: sticky;
