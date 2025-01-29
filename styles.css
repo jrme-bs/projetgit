@@ -151,28 +151,83 @@ img.rounded {
     width: 100%;
 }
 
-/* Cactus Container - style personnalisé pour une section unique */
-.cactus-container {
-    background-color: #ffe600; /* Jaune vif pour rappeler la couleur du sable et des cactus */
-    color: #2d6a4f; /* Vert cactus foncé pour le texte */
-    padding: 20px;
-    margin: 30px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 800px;
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
 }
 
-.cactus-container h2 {
-    font-size: 2rem;
-    color: #2d6a4f; /* Texte en vert */
+/* Utility Classes */
+.center-text {
     text-align: center;
-    font-weight: bold;
-    margin-bottom: 15px;
 }
 
-.cactus-container p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: #333;
+img.rounded {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 10px auto;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Sticky header */
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background: #4a90e2;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Titles and subtitles */
+.title {
+    font-size: 2.2rem;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    color: #666;
+}
+
+/* Story section */
+.story-section {
     text-align: justify;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+/* Featured image */
+.featured-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Text content */
+.text-content {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.8;
+}
+
+/* Site footer */
+.site-footer {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 0.9rem;
 }
